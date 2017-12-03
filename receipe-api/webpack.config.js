@@ -1,9 +1,9 @@
 module.exports = {
 	entry: {
-		helloWorld: './js/app'
+		helloWorld: './src/main/js/app'
 	},
 	output: {
-		filename: './resources/static/bundle.js'
+		filename: './src/main/resources/static/bundle.js'
 	},
 	module: {
 		loaders: [
